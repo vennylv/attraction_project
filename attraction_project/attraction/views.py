@@ -10,3 +10,7 @@ def index(request):
 
 def attraction_page(request):
     return render(request, 'attraction/attraction.html')
+
+
+def map_page(request):
+    return render(request, 'attraction/eu_map.html')
